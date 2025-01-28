@@ -63,12 +63,13 @@ Search/AutoComplete Response
 | Field   | Data Type | Description                                                  |
 | ------- | --------- | ------------------------------------------------------------ |
 | id      | string    | Local time when the real time data was updated.              |
-| ==name==    | ==string==    | ==Local time when the real time data was updated in unix time.== |
+| name    | string    | Local time when the real time data was updated in unix time. |
 | region  | string    | Temperature in celsius                                       |
 | country | string    | Temperature in fahrenheit                                    |
 | lat     | decimal   | Feels like temperature in celsius                            |
 | long    | decimal   | Feels like temperature in fahrenheit                         |
 | url     | string    |                                                              |
+
 Current Weather Response
 
 | Field              | Data Type   | Description                                                          |
@@ -76,9 +77,9 @@ Current Weather Response
 | last_updated       | string      | Local time when the real time data was updated.                      |
 | last_updated_epoch | int         | Local time when the real time data was updated in unix time.         |
 | temp_c             | decimal     | Temperature in celsius                                               |
-| ==temp_f==         | ==decimal== | ==Temperature in fahrenheit==                                        |
+| temp_f             | decimal     | Temperature in fahrenheit                                            |
 | feelslike_c        | decimal     | Feels like temperature in celsius                                    |
-| ==feelslike_f==    | ==decimal== | ==Feels like temperature in fahrenheit==                             |
+| feelslike_f        | decimal     | Feels like temperature in fahrenheit                                 |
 | windchill_c        | decimal     | Windchill temperature in celcius                                     |
 | windchill_f        | decimal     | Windchill temperature in fahrenheit                                  |
 | heatindex_c        | decimal     | Heat index in celcius                                                |
@@ -86,7 +87,7 @@ Current Weather Response
 | dewpoint_c         | decimal     | Dew point in celcius                                                 |
 | dewpoint_f         | decimal     | Dew point in fahrenheit                                              |
 | condition:text     | string      | Weather condition text                                               |
-| ==condition:icon== | ==string==  | ==Weather icon url==                                                 |
+| condition:icon     | string      | Weather icon url                                                     |
 | condition:code     | int         | Weather condition unique code.                                       |
 | wind_mph           | decimal     | Wind speed in miles per hour                                         |
 | wind_kph           | decimal     | Wind speed in kilometer per hour                                     |
@@ -96,10 +97,10 @@ Current Weather Response
 | pressure_in        | decimal     | Pressure in inches                                                   |
 | precip_mm          | decimal     | Precipitation amount in millimeters                                  |
 | precip_in          | decimal     | Precipitation amount in inches                                       |
-| ==humidity==       | ==int==     | ==Humidity as percentage==                                           |
+| humidity           | int         | Humidity as percentage                                               |
 | cloud              | int         | Cloud cover as percentage                                            |
 | is_day             | int         | 1 = Yes 0 = No  <br>Whether to show day condition icon or night icon |
-| ==uv==             | ==decimal== | ==UV Index==                                                         |
+| uv                 | decimal     | UV Index                                                             |
 | gust_mph           | decimal     | Wind gust in miles per hour                                          |
 | gust_kph           | decimal     | Wind gust in kilometer per hour                                      |
 
