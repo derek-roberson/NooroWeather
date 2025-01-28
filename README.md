@@ -1,3 +1,9 @@
+# SETUP
+
+1. Open NooroWeather.xcodeproj
+2. If necessary, update API key in `Endpoint.swift` file under token
+3. Run NooroWeather target
+
 
 |  Document  | Draft                                                                                 |
 | :--------: | ------------------------------------------------------------------------------------- |
